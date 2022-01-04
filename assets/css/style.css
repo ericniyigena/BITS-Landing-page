@@ -132,7 +132,7 @@ section {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: orange;
+  background: green;
   color: #fff;
 }
 .back-to-top.active {
@@ -215,7 +215,7 @@ bar {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color:orange;
+  color:green;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
   background: orange;
@@ -226,7 +226,7 @@ bar {
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
-  background: orange;
+  background: green;
 }
 .navbar .dropdown ul {
   display: block;
@@ -657,12 +657,12 @@ bar {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
-  color: orange;
+  color: green;
 }
 .features .feature-icons .content .icon-box i {
   font-size: 44px;
   line-height: 44px;
-  color: orange;
+  color: green;
   margin-right: 15px;
 }
 .features .feature-icons .content .icon-box p {
@@ -815,6 +815,9 @@ bar {
   font-size: 18px;
   margin-bottom: 15px;
 }
+.pricing h3:hover{
+  color: green;
+}
 .pricing .price {
   font-size: 36px;
   color: #444444;
@@ -854,18 +857,19 @@ bar {
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
-  color: #4154f1;
+  color: orange;
   transition: none;
   font-size: 16px;
   font-weight: 400;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  border: 1px solid #4154f1;
+  border: 1px solid orange;
 }
 .pricing .btn-buy:hover {
-  background: #4154f1;
+  background: green;
   color: #fff;
+  border-color: green;
 }
 .pricing .featured {
   width: 200px;
@@ -876,7 +880,7 @@ bar {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #4154f1;
+  background:orange;
   color: #fff;
 }
 
@@ -1932,7 +1936,7 @@ bar {
   border-radius: 4px;
 }
 .footer .footer-newsletter form input[type=submit]:hover {
-  background:orange;
+  background:green;
 }
 .footer .footer-top {
   background: white url(../img/footer-bg.png) no-repeat right top;
@@ -1980,12 +1984,12 @@ bar {
   transition: 0.3s;
 }
 .footer .footer-top .social-links a:hover {
-  color:orange;
+  color:green;
 }
 .footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: orange;
+  color: grey;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -2013,7 +2017,7 @@ bar {
   padding-top: 0;
 }
 .footer .footer-top .footer-links ul a {
-  color: orange;
+  color: grey;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -2027,11 +2031,11 @@ bar {
 .footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color:orange;
+  color:grey;
 }
 .footer .credits {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #012970;
+  color: orange;
 }
